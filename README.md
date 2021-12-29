@@ -5,7 +5,7 @@ A step by step tutorial for using CodeQL to query your code.
 
 ---
 
-* [Introduction of CodeQL](#Introduction of CodeQL)
+* [Introduction of CodeQL](#introduction-of-codeql)
 * Setup CodeQL
 * Basic queries
 
