@@ -1,7 +1,8 @@
 # CodeQL Quickstart
 
 A step by step tutorial for using CodeQL to query your code.
-## Table of Contents
+
+Table of Contents
 
 ---
 
