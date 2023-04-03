@@ -6,8 +6,8 @@
  * @id java/basic
  */
 
-import java
+ import java
 
-from Method method
-where method.getName().matches("read%")
-select method, "this is a method named with read as prefix."
+ from Class c, Class superclass
+ where superclass = c.getASupertype()
+ select c, "This class extends another class."

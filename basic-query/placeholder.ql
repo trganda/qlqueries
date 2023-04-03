@@ -8,6 +8,6 @@
 
 import java
 
-from Method method
-where method.getName().matches("read%")
-select method, "$@ has a method named with read as prefix.", method, method.getFile().getBaseName()
+from Class c, Class superclass
+where superclass = c.getASupertype()
+select c, "This class extends the class $@.", superclass, superclass.getName()
