@@ -56,7 +56,7 @@ class DubboUnsafeDeserializationConfig extends TaintTracking::Configuration {
             call.getMethod().getName() = "deserialize" and
             call.getMethod().getDeclaringType().getName() = "Serialization" and
             call.getArgument(1) = n1.asExpr() and
-            call = n2.asExpr()   
+            call = n2.asExpr()
         )
     }
 }
